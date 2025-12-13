@@ -24,12 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A71424452EED828F00BE982C /* Scheduling_App.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Scheduling_App.xcodeproj; sourceTree = SOURCE_ROOT; };
 		A77539372EC615CE00B621F2 /* Scheduling_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scheduling_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77539442EC615D000B621F2 /* Scheduling_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scheduling_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A775394E2EC615D000B621F2 /* Scheduling_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scheduling_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		A71424482EED82B200BE982C /* API */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = API;
+			sourceTree = "<group>";
+		};
 		A77539392EC615CE00B621F2 /* Scheduling_App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Scheduling_App;
@@ -75,6 +81,8 @@
 		A775392E2EC615CE00B621F2 = {
 			isa = PBXGroup;
 			children = (
+				A71424482EED82B200BE982C /* API */,
+				A71424452EED828F00BE982C /* Scheduling_App.xcodeproj */,
 				A77539392EC615CE00B621F2 /* Scheduling_App */,
 				A77539472EC615D000B621F2 /* Scheduling_AppTests */,
 				A77539512EC615D000B621F2 /* Scheduling_AppUITests */,
@@ -108,6 +116,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				A71424482EED82B200BE982C /* API */,
 				A77539392EC615CE00B621F2 /* Scheduling_App */,
 			);
 			name = Scheduling_App;
